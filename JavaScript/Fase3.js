@@ -1,6 +1,6 @@
 const anyInici     = 1948;
 const interval     = 4;
-const anyNaixement = 1974;
+const anyNaixement = 2000;
 
 for (let i = anyInici; i <= anyNaixement; i += 4 ) {
     console.log(i);
@@ -9,7 +9,7 @@ for (let i = anyInici; i <= anyNaixement; i += 4 ) {
 bixestSi = `L'any ${anyNaixement} és any de traspàs`;
 bixestNo = `L'any ${anyNaixement} no és any de traspàs`;
 
-esAnyTraspas = (anyNaixement % 4 == 0 || anyNaixement % 400 == 0) && !(anyNaixement % 100 == 0);
+esAnyTraspas = (anyNaixement % 4 == 0 && anyNaixement % 100 != 0) || anyNaixement % 400 == 0;
 if (esAnyTraspas) {
     console.log(bixestSi);
 } else {
