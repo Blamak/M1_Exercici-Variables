@@ -6,7 +6,7 @@ public class Fase3App {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int anyInici     = 1650;
+		int anyInici     = 1948;
 		int interval     = 4;
 		int anyNaixement = Integer.parseInt(JOptionPane.showInputDialog("Introdueix el teu any de naixement"));
 

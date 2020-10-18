@@ -1,5 +1,5 @@
 const nom           = "Víctor Lasheras Sánchez";
-const dataNaixement = "15/07/2000";
+const dataNaixement = "15/07/1974";
 const anyNaixement  = dataNaixement.slice(-4);
 
 console.log(`El meu nom és ${nom}.`);

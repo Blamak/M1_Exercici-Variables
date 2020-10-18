@@ -1,6 +1,6 @@
 const anyInici     = 1948;
 const interval     = 4;
-const anyNaixement = 2000;
+const anyNaixement = 1974;
 
 for (let i = anyInici; i <= anyNaixement; i += 4 ) {
     console.log(i);
