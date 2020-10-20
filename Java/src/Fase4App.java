@@ -9,8 +9,8 @@ public class Fase4App {
 		System.out.printf("Vaig néixer el %s.%n", dataNaixement);
 
 		boolean esAnyTraspas = (anyNaixement % 4 == 0 && anyNaixement % 100 != 0) || anyNaixement % 400 == 0;
-		String bixestSi      = String.format("El meu any de naixement és de traspàs.");
-		String bixestNo      = String.format("El meu any de naixement no és de traspàs.");
+		String bixestSi      = "El meu any de naixement és de traspàs.";
+		String bixestNo      = "El meu any de naixement no és de traspàs.";
 
 		if (esAnyTraspas) {
 			System.out.println(bixestSi);
