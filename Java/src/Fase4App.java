@@ -1,6 +1,7 @@
 public class Fase4App {
 
 	public static void main(String[] args) {
+		
 		String nom           = "Víctor Lasheras Sánchez";
 		String dataNaixement = "15/07/1974";
 		int anyNaixement     = Integer.parseInt(dataNaixement.substring(dataNaixement.length()-4));
