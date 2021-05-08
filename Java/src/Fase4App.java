@@ -2,16 +2,16 @@ public class Fase4App {
 
 	public static void main(String[] args) {
 		
-		String nom           = "Víctor Lasheras Sánchez";
+		String nom = "Víctor Lasheras Sánchez";
 		String dataNaixement = "15/07/1974";
-		int anyNaixement     = Integer.parseInt(dataNaixement.substring(dataNaixement.length()-4));
+		int anyNaixement = Integer.parseInt(dataNaixement.substring(dataNaixement.length()-4));
 
 		System.out.printf("El meu nom és %s.%n", nom);
 		System.out.printf("Vaig néixer el %s.%n", dataNaixement);
 
 		boolean esAnyTraspas = (anyNaixement % 4 == 0 && anyNaixement % 100 != 0) || anyNaixement % 400 == 0;
-		String bixestSi      = "El meu any de naixement és de traspàs.";
-		String bixestNo      = "El meu any de naixement no és de traspàs.";
+		String bixestSi = "El meu any de naixement és de traspàs.";
+		String bixestNo = "El meu any de naixement no és de traspàs.";
 
 		if (esAnyTraspas) {
 			System.out.println(bixestSi);
