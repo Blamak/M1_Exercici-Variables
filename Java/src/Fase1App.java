@@ -4,7 +4,7 @@ public class Fase1App {
 
 	public static void main(String[] args) {
 
-		String nom     = "Víctor";
+		String nom = "Víctor";
 		String cognom1 = "Lasheras";
 		String cognom2 = "Sánchez";
 
