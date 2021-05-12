@@ -18,6 +18,7 @@ public class Fase3App {
 
 		if (esAnyTraspas) {
 			System.out.println(bixestSi);
+			
 		} else {
 			System.out.println(bixestNo);
 		}
